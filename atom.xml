@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mpellon.github.io/"/>
-  <updated>2016-07-28T14:45:45.324Z</updated>
+  <updated>2016-07-28T15:29:44.613Z</updated>
   <id>https://mpellon.github.io/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>Zepto MalSpam - Subject: SCAN0000????</title>
     <link href="https://mpellon.github.io/2016/07/28/zepto-malspam-subject-scan0000-1/"/>
     <id>https://mpellon.github.io/2016/07/28/zepto-malspam-subject-scan0000-1/</id>
-    <published>2016-07-28T14:45:55.132Z</published>
-    <updated>2016-07-28T14:45:45.324Z</updated>
+    <published>2016-07-28T15:29:44.613Z</published>
+    <updated>2016-07-28T15:29:44.613Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>On Wednesday I received two emails which appear to attempt to deliver the new <a href="https://nakedsecurity.sophos.com/2016/07/05/is-zepto-ransomware-the-new-locky/" target="_blank" rel="external">Zepto</a> ransomware. </p>
 <h2 id="Emails"><a href="#Emails" class="headerlink" title="Emails"></a>Emails</h2><table>
@@ -47,19 +47,43 @@
 </tr>
 </tbody>
 </table>
-<h2 id="Associated-Domains"><a href="#Associated-Domains" class="headerlink" title="Associated Domains"></a>Associated Domains</h2><table>
+<h2 id="Dropped-Files"><a href="#Dropped-Files" class="headerlink" title="Dropped Files"></a>Dropped Files</h2><table>
 <thead>
 <tr>
-<th style="text-align:center">IP Address</th>
-<th style="text-align:center">Port</th>
-<th style="text-align:center">URL</th>
+<th style="text-align:center">Filename</th>
+<th style="text-align:center">SHA256</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">212.50.160.36</td>
-<td style="text-align:center">www.bgrea.karoo.net</td>
-<td style="text-align:center">GET /j988765</td>
+<td style="text-align:center">hramgs.exe</td>
+<td style="text-align:center">e94c6f9750972f7fa29be5ba355779e1980f11f9cb3700d39db4773de255761c</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Associated-Domains"><a href="#Associated-Domains" class="headerlink" title="Associated Domains"></a>Associated Domains</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Endpoint</th>
+<th style="text-align:center">Method/Response</th>
+<th style="text-align:center">URL/Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">212.50.160.36:80 (www.bgrea.karoo.net)</td>
+<td style="text-align:center">GET</td>
+<td style="text-align:center">/j988765</td>
+</tr>
+<tr>
+<td style="text-align:center">178.62.232.24:80</td>
+<td style="text-align:center">POST</td>
+<td style="text-align:center">/upload/_dispatch.php</td>
+</tr>
+<tr>
+<td style="text-align:center">192.72.83.76:80 (www.hime101.com.tw)</td>
+<td style="text-align:center">GET</td>
+<td style="text-align:center">/j988765</td>
 </tr>
 </tbody>
 </table>
