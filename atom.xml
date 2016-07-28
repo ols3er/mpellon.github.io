@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mpellon.github.io/"/>
-  <updated>2016-07-28T16:04:41.173Z</updated>
+  <updated>2016-07-28T16:26:18.432Z</updated>
   <id>https://mpellon.github.io/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>Zepto MalSpam Campaign</title>
     <link href="https://mpellon.github.io/2016/07/28/zepto-malspam-campaign-1/"/>
     <id>https://mpellon.github.io/2016/07/28/zepto-malspam-campaign-1/</id>
-    <published>2016-07-28T16:04:41.177Z</published>
-    <updated>2016-07-28T16:04:41.173Z</updated>
+    <published>2016-07-28T16:26:18.448Z</published>
+    <updated>2016-07-28T16:26:18.432Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>On Wednesday I received two emails which appear to attempt to deliver <a href="https://nakedsecurity.sophos.com/2016/07/05/is-zepto-ransomware-the-new-locky/" target="_blank" rel="external">Zepto</a> ransomware. </p>
 <h2 id="Emails"><a href="#Emails" class="headerlink" title="Emails"></a>Emails</h2><table>
@@ -88,7 +88,7 @@
 </tbody>
 </table>
 <h2 id="Artifacts"><a href="#Artifacts" class="headerlink" title="Artifacts"></a>Artifacts</h2><ul>
-<li>ZIP archive of today’s data: <a href="https://github.com/mpellon/malware-artifacts-repo-1/raw/master/20160727-zepto-malspam-1.zip" target="_blank" rel="external">20160727-zepto-malspam-1.zip</a> </li>
+<li>ZIP archive of today’s data: <a href="https://github.com/mpellon/malware-artifacts-repo-1/raw/master/20160727-zepto-malspam-1.zip" target="_blank" rel="external">20160727-zepto-malspam-1.zip</a> - Password: <em>“infected”</em></li>
 </ul>
 ]]></content>
     
