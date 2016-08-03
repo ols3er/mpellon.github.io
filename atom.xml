@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mpellon.github.io/"/>
-  <updated>2016-08-03T15:37:54.041Z</updated>
+  <updated>2016-08-03T18:00:02.827Z</updated>
   <id>https://mpellon.github.io/</id>
   
   <author>
@@ -16,13 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2016-07-27 - Zepto MalSpam Campaign</title>
-    <link href="https://mpellon.github.io/zepto-malspam-campaign-1/"/>
-    <id>https://mpellon.github.io/zepto-malspam-campaign-1/</id>
-    <published>2016-08-03T15:37:54.045Z</published>
-    <updated>2016-08-03T15:37:54.041Z</updated>
+    <title>2016-07-27 - Locky MalSpam Campaign</title>
+    <link href="https://mpellon.github.io/locky-malspam-campaign/"/>
+    <id>https://mpellon.github.io/locky-malspam-campaign/</id>
+    <published>2016-08-03T18:00:02.827Z</published>
+    <updated>2016-08-03T18:00:02.827Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>On Wednesday I received two emails which appear to attempt to deliver <a href="https://nakedsecurity.sophos.com/2016/07/05/is-zepto-ransomware-the-new-locky/" target="_blank" rel="external">Zepto</a> ransomware. </p>
+    <content type="html"><![CDATA[<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>On Wednesday I received two emails which appear to attempt to deliver <a href="https://nakedsecurity.sophos.com/2016/02/17/locky-ransomware-what-you-need-to-know/" target="_blank" rel="external">Locky</a> ransomware. </p>
 <h2 id="Emails"><a href="#Emails" class="headerlink" title="Emails"></a>Emails</h2><table>
 <thead>
 <tr>
@@ -88,7 +88,7 @@
 </tbody>
 </table>
 <h2 id="Artifacts"><a href="#Artifacts" class="headerlink" title="Artifacts"></a>Artifacts</h2><ul>
-<li>ZIP archive of today’s data: <a href="https://github.com/mpellon/malware-artifacts-repo-1/raw/master/20160727-zepto-malspam-1.zip" target="_blank" rel="external">20160727-zepto-malspam-1.zip</a> - Password: <em>“infected”</em></li>
+<li>ZIP archive of today’s data: <a href="https://github.com/mpellon/malware-artifacts-repo-1/raw/master/20160727-locky-malspam.zip" target="_blank" rel="external">20160727-locky-malspam.zip</a> - Password: <em>“infected”</em></li>
 </ul>
 ]]></content>
     
