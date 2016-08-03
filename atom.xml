@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mpellon.github.io/"/>
-  <updated>2016-08-03T15:32:29.033Z</updated>
+  <updated>2016-08-03T15:35:35.386Z</updated>
   <id>https://mpellon.github.io/</id>
   
   <author>
@@ -14,6 +14,92 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2016-07-27 - Zepto MalSpam Campaign</title>
+    <link href="https://mpellon.github.io/zepto-malspam-campaign-1/"/>
+    <id>https://mpellon.github.io/zepto-malspam-campaign-1/</id>
+    <published>2016-08-03T15:35:35.386Z</published>
+    <updated>2016-08-03T15:35:35.386Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>On Wednesday I received two emails which appear to attempt to deliver <a href="https://nakedsecurity.sophos.com/2016/07/05/is-zepto-ransomware-the-new-locky/" target="_blank" rel="external">Zepto</a> ransomware. </p>
+<h2 id="Emails"><a href="#Emails" class="headerlink" title="Emails"></a>Emails</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Date/Time</th>
+<th style="text-align:center">Subject</th>
+<th style="text-align:center">Sender (possibly spoofed)</th>
+<th style="text-align:center">Attachment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2016-07-27 11:38 UTC</td>
+<td style="text-align:center">scan0000581</td>
+<td style="text-align:center">curson4615@elsuper.com.do</td>
+<td style="text-align:center">scan0000581.docm</td>
+</tr>
+<tr>
+<td style="text-align:center">2016-07-27 12:33 UTC</td>
+<td style="text-align:center">SCAN00003897</td>
+<td style="text-align:center">pratten957@bombasleste.com.br</td>
+<td style="text-align:center">SCAN00003897.docm</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Dropped-Files"><a href="#Dropped-Files" class="headerlink" title="Dropped Files"></a>Dropped Files</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Filename</th>
+<th style="text-align:center">SHA256</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">hramgs.exe</td>
+<td style="text-align:center">e94c6f9750972f7fa29be5ba355779e1980f11f9cb3700d39db4773de255761c</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Associated-Domains"><a href="#Associated-Domains" class="headerlink" title="Associated Domains"></a>Associated Domains</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Endpoint</th>
+<th style="text-align:center">Method/Response</th>
+<th style="text-align:center">URL/Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">212.50.160.36:80 (www.bgrea.karoo.net)</td>
+<td style="text-align:center">GET</td>
+<td style="text-align:center">/j988765</td>
+</tr>
+<tr>
+<td style="text-align:center">178.62.232.24:80</td>
+<td style="text-align:center">POST</td>
+<td style="text-align:center">/upload/_dispatch.php</td>
+</tr>
+<tr>
+<td style="text-align:center">192.72.83.76:80 (www.hime101.com.tw)</td>
+<td style="text-align:center">GET</td>
+<td style="text-align:center">/j988765</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Artifacts"><a href="#Artifacts" class="headerlink" title="Artifacts"></a>Artifacts</h2><ul>
+<li>ZIP archive of today’s data: <a href="https://github.com/mpellon/malware-artifacts-repo-1/raw/master/20160727-zepto-malspam-1.zip" target="_blank" rel="external">20160727-zepto-malspam-1.zip</a> - Password: <em>“infected”</em></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Notes&quot;&gt;&lt;a href=&quot;#Notes&quot; class=&quot;headerlink&quot; title=&quot;Notes&quot;&gt;&lt;/a&gt;Notes&lt;/h2&gt;&lt;p&gt;On Wednesday I received two emails which appear to attempt
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2016-08-01 - Locky MalSpam Campaign</title>
@@ -94,92 +180,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;Notes&quot;&gt;&lt;a href=&quot;#Notes&quot; class=&quot;headerlink&quot; title=&quot;Notes&quot;&gt;&lt;/a&gt;Notes&lt;/h2&gt;&lt;p&gt;On Monday, I received an email that drops &lt;a href=&quot;https:/
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Zepto MalSpam Campaign</title>
-    <link href="https://mpellon.github.io/zepto-malspam-campaign-1/"/>
-    <id>https://mpellon.github.io/zepto-malspam-campaign-1/</id>
-    <published>2016-08-03T12:19:54.310Z</published>
-    <updated>2016-08-03T12:19:54.310Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>On Wednesday I received two emails which appear to attempt to deliver <a href="https://nakedsecurity.sophos.com/2016/07/05/is-zepto-ransomware-the-new-locky/" target="_blank" rel="external">Zepto</a> ransomware. </p>
-<h2 id="Emails"><a href="#Emails" class="headerlink" title="Emails"></a>Emails</h2><table>
-<thead>
-<tr>
-<th style="text-align:center">Date/Time</th>
-<th style="text-align:center">Subject</th>
-<th style="text-align:center">Sender (possibly spoofed)</th>
-<th style="text-align:center">Attachment</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">2016-07-27 11:38 UTC</td>
-<td style="text-align:center">scan0000581</td>
-<td style="text-align:center">curson4615@elsuper.com.do</td>
-<td style="text-align:center">scan0000581.docm</td>
-</tr>
-<tr>
-<td style="text-align:center">2016-07-27 12:33 UTC</td>
-<td style="text-align:center">SCAN00003897</td>
-<td style="text-align:center">pratten957@bombasleste.com.br</td>
-<td style="text-align:center">SCAN00003897.docm</td>
-</tr>
-</tbody>
-</table>
-<h2 id="Dropped-Files"><a href="#Dropped-Files" class="headerlink" title="Dropped Files"></a>Dropped Files</h2><table>
-<thead>
-<tr>
-<th style="text-align:center">Filename</th>
-<th style="text-align:center">SHA256</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">hramgs.exe</td>
-<td style="text-align:center">e94c6f9750972f7fa29be5ba355779e1980f11f9cb3700d39db4773de255761c</td>
-</tr>
-</tbody>
-</table>
-<h2 id="Associated-Domains"><a href="#Associated-Domains" class="headerlink" title="Associated Domains"></a>Associated Domains</h2><table>
-<thead>
-<tr>
-<th style="text-align:center">Endpoint</th>
-<th style="text-align:center">Method/Response</th>
-<th style="text-align:center">URL/Code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">212.50.160.36:80 (www.bgrea.karoo.net)</td>
-<td style="text-align:center">GET</td>
-<td style="text-align:center">/j988765</td>
-</tr>
-<tr>
-<td style="text-align:center">178.62.232.24:80</td>
-<td style="text-align:center">POST</td>
-<td style="text-align:center">/upload/_dispatch.php</td>
-</tr>
-<tr>
-<td style="text-align:center">192.72.83.76:80 (www.hime101.com.tw)</td>
-<td style="text-align:center">GET</td>
-<td style="text-align:center">/j988765</td>
-</tr>
-</tbody>
-</table>
-<h2 id="Artifacts"><a href="#Artifacts" class="headerlink" title="Artifacts"></a>Artifacts</h2><ul>
-<li>ZIP archive of today’s data: <a href="https://github.com/mpellon/malware-artifacts-repo-1/raw/master/20160727-zepto-malspam-1.zip" target="_blank" rel="external">20160727-zepto-malspam-1.zip</a> - Password: <em>“infected”</em></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Notes&quot;&gt;&lt;a href=&quot;#Notes&quot; class=&quot;headerlink&quot; title=&quot;Notes&quot;&gt;&lt;/a&gt;Notes&lt;/h2&gt;&lt;p&gt;On Wednesday I received two emails which appear to attempt
     
     </summary>
     
