@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mpellon.github.io/"/>
-  <updated>2016-07-28T16:26:18.432Z</updated>
+  <updated>2016-08-03T15:32:29.033Z</updated>
   <id>https://mpellon.github.io/</id>
   
   <author>
@@ -16,11 +16,96 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2016-08-01 - Locky MalSpam Campaign</title>
+    <link href="https://mpellon.github.io/locky-malspam-campaign-1/"/>
+    <id>https://mpellon.github.io/locky-malspam-campaign-1/</id>
+    <published>2016-08-03T15:32:29.033Z</published>
+    <updated>2016-08-03T15:32:29.033Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>On Monday, I received an email that drops <a href="https://nakedsecurity.sophos.com/2016/02/17/locky-ransomware-what-you-need-to-know/" target="_blank" rel="external">locky</a> via a heavily obfuscated JScript downloader.</p>
+<h2 id="Emails"><a href="#Emails" class="headerlink" title="Emails"></a>Emails</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Date/Time</th>
+<th style="text-align:center">Subject</th>
+<th style="text-align:center">Sender (possibly spoofed)</th>
+<th style="text-align:center">Attachment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2016-08-01 11:52:14 UTC</td>
+<td style="text-align:center">FW: Message from “RNP002673868AAB”</td>
+<td style="text-align:center">marek.baranovic@workman.co.uk</td>
+<td style="text-align:center">8882038095}}_01-08-2016.zip</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Dropped-Files"><a href="#Dropped-Files" class="headerlink" title="Dropped Files"></a>Dropped Files</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Filename</th>
+<th style="text-align:center">SHA256</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">NVRVtoqu.exe</td>
+<td style="text-align:center"><a href="https://www.virustotal.com/en/file/8787580e405b62a6aec0f57822ac738d091f57a4e0311c8af3bcae8174c6e333/analysis/" target="_blank" rel="external">8787580e405b62a6aec0f57822ac738d091f57a4e0311c8af3bcae8174c6e333</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="Associated-Domains"><a href="#Associated-Domains" class="headerlink" title="Associated Domains"></a>Associated Domains</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Endpoint</th>
+<th style="text-align:center">Method/Response</th>
+<th style="text-align:center">URL/Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">95.211.144.65:80 (www.biologiazsg.cba.pl)</td>
+<td style="text-align:center">GET</td>
+<td style="text-align:center">/09u9jn87?TcbCEsbYkDo=jfEbOA</td>
+</tr>
+<tr>
+<td style="text-align:center">187.45.195.183:80 (sindipetro.com.br)</td>
+<td style="text-align:center">GET</td>
+<td style="text-align:center">/09u9jn87?MVEoVljH=wWyNWzV</td>
+</tr>
+<tr>
+<td style="text-align:center">37.139.30.95:80</td>
+<td style="text-align:center">POST</td>
+<td style="text-align:center">/upload/_dispatch.php</td>
+</tr>
+<tr>
+<td style="text-align:center">192.42.116.41:80 (bvmyoxguygmcgjehh.pw)</td>
+<td style="text-align:center">POST</td>
+<td style="text-align:center">/upload/_dispatch.php</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Artifacts"><a href="#Artifacts" class="headerlink" title="Artifacts"></a>Artifacts</h2><ul>
+<li>ZIP archive of today’s data: <a href="https://github.com/mpellon/malware-artifacts-repo-1/raw/master/20160801-locky-malspam-1.zip" target="_blank" rel="external">20160801-locky-malspam-1.zip</a> - Password: <em>“infected”</em></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Notes&quot;&gt;&lt;a href=&quot;#Notes&quot; class=&quot;headerlink&quot; title=&quot;Notes&quot;&gt;&lt;/a&gt;Notes&lt;/h2&gt;&lt;p&gt;On Monday, I received an email that drops &lt;a href=&quot;https:/
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Zepto MalSpam Campaign</title>
-    <link href="https://mpellon.github.io/2016/07/28/zepto-malspam-campaign-1/"/>
-    <id>https://mpellon.github.io/2016/07/28/zepto-malspam-campaign-1/</id>
-    <published>2016-07-28T16:26:18.448Z</published>
-    <updated>2016-07-28T16:26:18.432Z</updated>
+    <link href="https://mpellon.github.io/zepto-malspam-campaign-1/"/>
+    <id>https://mpellon.github.io/zepto-malspam-campaign-1/</id>
+    <published>2016-08-03T12:19:54.310Z</published>
+    <updated>2016-08-03T12:19:54.310Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h2><p>On Wednesday I received two emails which appear to attempt to deliver <a href="https://nakedsecurity.sophos.com/2016/07/05/is-zepto-ransomware-the-new-locky/" target="_blank" rel="external">Zepto</a> ransomware. </p>
 <h2 id="Emails"><a href="#Emails" class="headerlink" title="Emails"></a>Emails</h2><table>
